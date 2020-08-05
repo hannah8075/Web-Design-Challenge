@@ -11,4 +11,5 @@ The website consist of 7 pages total, including:
 - A "Comparisons" page that contains all of the visualizations on the same page so we can easily visually compare them.
 - A "Data" page that displays a responsive table containing the data used in the visualizations.
 
+Live webpage: https://hannah8075.github.io/Web-Design-Challenge/ 
 
