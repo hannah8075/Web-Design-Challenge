@@ -1,0 +1,114 @@
+/* ========
+Layout
+=========== */
+h1 {
+    font-size: 28px;
+    color:#5bc0de;
+}
+
+h2 {
+    font-size: 18px;
+    color:#5bc0de;
+}
+
+body {
+    margin: 0;
+    background-color: #EDEDED; 
+  }
+
+table {
+    table-layout: auto;
+    width: 100%;
+    text-align: center;
+}
+
+/* ========
+id
+=========== */
+#img1 {
+    float: left;
+    height:150px;
+}
+
+/* ========
+Class
+=========== */
+.navbar-toggler{
+    float: right;
+}
+.nav-text {
+    font-size: 28px;
+}
+
+.img-button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.img-column {
+    padding: 0px;
+}
+
+.contained-style {
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+}
+
+.content {
+    padding-top: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.table-height{
+    height: 600px;
+    overflow: scroll;
+}
+
+.collapse{
+    justify-content:flex-end;
+  }
+
+/* ========
+Media Query
+=========== */
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .img-button {
+        width:50%;
+        margin-bottom: 10px;
+    }
+    .chart {
+        width:100%
+    }
+    .navbar-toggler{
+        background-color: #f8f9fa;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .img-button {
+        width:70%;
+        margin-bottom: 10px;
+    }
+    .chart {
+        width:100%
+    }
+    .navbar-toggler{
+        background-color: #f8f9fa;
+    }
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .chart {
+        width:100%
+    }
+
+    .navbar-toggler{
+        background-color: #f8f9fa;
+    }
+}
